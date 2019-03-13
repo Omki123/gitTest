@@ -1,0 +1,89 @@
+								GitLab Git Bash Command
+
+git config --global user.name "VBVNKM" // register global user name on git bash
+git config --global user.email "vaibhavnikam504@gmail.com"  // register global user email on git bash
+
+git config user.name // check user name which register on git bash
+git config user.email // check user email which register on git bash
+git config --list // check all configuration at a time
+
+git init  // The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository.
+
+git remote add origin path // this command use to create a remote 
+e.g.: git clone https://gitlab.com/celestial-training/angular-demo.git
+
+git remote -v // this command is use to check which remote repository connect to your local repository
+
+git remote rm remote-repository-name // this command is use to remove link remote repository to your local repository
+e.g.: git remote rm origin
+
+git add . // this command use to add all files and folders from existing folder
+
+git commit -m "any message" // this command is use to stage to permanent vergening
+e.g.: git commit -m "initial commit"
+
+git push -u remote_name brnch_name // this command use to push(add) project on server
+e.g.: git push -u origin master
+ 
+git clone project-url // download existing project
+e.g.: git clone https://gitlab.com/celestial-training/angular-demo.git
+
+git status // this command indicate all file:- track or untrack files
+
+git rm --cached file-name // this command is use to stage list to untrack list
+e.g.:-git rm --cached index.html	
+
+git checkout file-name // this command is use to discard changes in working directory
+e.g.:-git checkout index.html
+
+git reset // this command is use to convert stage list to unstage list meance untrack list
+
+git diff file-name // this command is use to check diffrence new changes and some old changes
+e.g.:-git diff index.html
+
+git ls // this command is use to check vergening list meance which file we commit
+
+git log // this command is use to view all commit information when we commit files
+
+git pull remote_name brnch_name // this command use to download updated code on existing folder
+e.g.: git pull origin master
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+								Add Project on Server
+
+1) Open Gitbash on this path
+
+2) git init
+
+3) git remote add origin https://gitlab.com/bdmgroup/bdmpro.git
+
+4) git add .
+
+5) git commit -m "project"
+
+6) git push -u origin master
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+							Download Project On Local Server 
+
+1) git clone https://gitlab.com/bdmgroup/bdmpro.git
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+							Push(Add) Updated Code On Server
+
+1) git add .
+
+2) git commit -m "updated-project"
+
+3) git push -u origin master
+
+
+
+
+
+
+
+
