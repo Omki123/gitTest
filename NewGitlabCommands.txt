@@ -1,7 +1,7 @@
 								GitLab Git Bash Command
 
-git config --global user.name "VBVNKM" // register global user name on git bash
-git config --global user.email "vaibhavnikam504@gmail.com"  // register global user email on git bash
+git config --global user.name "Omki123" // register global user name on git bash
+git config --global user.email "omkarnaik999@gmail.com"  // register global user email on git bash
 
 git config user.name // check user name which register on git bash
 git config user.email // check user email which register on git bash
